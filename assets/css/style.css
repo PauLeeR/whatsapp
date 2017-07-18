@@ -1,0 +1,58 @@
+body{
+	background-color: #dfdfdf;
+}
+
+.green{  /*creo un div solo en el html para dar ese fondo verde turquesa a la parte de arriba del body*/
+	background-color: #009789;
+	height: 100px;
+	margin-top: 0;
+}
+
+.barra{
+	border: 1px solid #cccccc;
+	padding: 0;
+	height: 100%;
+	width: 85%;
+	z-index: 1;
+}
+
+.rounded-circle{
+	width: 20%;
+	padding: 2%;
+}
+
+.logo{
+	width: 13%;
+	margin-top: -2%;
+}
+
+.gian{
+	width: 50%;
+
+}
+
+i{
+	color: #3e3f41;
+	right: 0;
+	margin-right: 20px;
+}
+
+.barra1, .barra2{
+	border-bottom: 1px solid #cccccc;
+}
+
+.barra2{
+	border-left: 1px solid #cccccc;
+}
+
+.form-control{
+	background-image: url("../img/search-icon.png");
+	background-size: 14px;
+	background-repeat: no-repeat;
+	background-position: left center;
+	border-bottom: 1px solid rgba(0,0,0,.4);
+}
+
+.search-bar{
+	margin-right: 10px;
+}
